@@ -1,0 +1,20 @@
+# Install Guide
+### Install basic package
+Python3.3
+PIP3
+Virtualenv
+
+### Install dependencies
+cd server/
+virtualenv venv
+source venv/bin/activate
+pip3 instll -r requirements.txt
+
+# Server main packages
+Flask
+SQLAchemly
+gunicorn
+
+# How to start server
+$ cd app
+$ gunicorn server:app

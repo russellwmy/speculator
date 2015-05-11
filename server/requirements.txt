@@ -1,0 +1,8 @@
+flask==0.10
+flask-sqlalchemy==2.0
+flask-restful==0.3.1
+psycopg2==2.5.4
+PyJWT==0.4.3
+python-dateutil==2.4.0
+gunicorn==19.3.0
+ystockquote==0.2.4

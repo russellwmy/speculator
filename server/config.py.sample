@@ -1,0 +1,14 @@
+import os
+_basedir = os.path.abspath(os.path.dirname(__file__))
+
+DEBUG = False
+
+ADMINS = frozenset(["admin@speculator.com"])
+SECRET = ""
+
+
+SQLALCHEMY_DATABASE_URI = "postgres://postgres:postgres@localhost:5432/speculator"
+DATABASE_CONNECT_OPTIONS = {}
+
+import datetime
+JWT_EXP_DELTA = datetime.timedelta(seconds=3600)
